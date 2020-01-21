@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def call(Map config=[:]) {
-  echo "Hello, ${config.name}"
+def call(String name='human') {
+  echo "Hello, ${name}"
 }
 
